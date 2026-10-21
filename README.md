@@ -87,10 +87,6 @@ engineering_mode: "measurable outcomes, clear architecture, maintainable deliver
   <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Abood991B&theme=tokyonight" alt="Repositories by language" />
 </p>
 
-<p align="center">
-  <img width="75%" src="https://streak-stats.demolab.com?user=Abood991B&theme=tokyonight&hide_border=true&background=07111F&ring=22D3EE&fire=8B5CF6&currStreakLabel=22D3EE" alt="GitHub contribution streak" />
-</p>
-
 ## `05 / CURRENT VECTOR`
 
 > I am most interested in the layer where model capability becomes product reliability: grounded retrieval, agent coordination, evaluation, observable pipelines, and interfaces people can actually use.
