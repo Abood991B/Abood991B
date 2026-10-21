@@ -83,12 +83,12 @@ engineering_mode: "measurable outcomes, clear architecture, maintainable deliver
 ## `04 / GITHUB TELEMETRY`
 
 <p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Abood991B&show_icons=true&include_all_commits=true&count_private=false&theme=tokyonight&hide_border=true&bg_color=07111F&title_color=22D3EE&text_color=BCD7EE&icon_color=8B5CF6" alt="Abdulrahman's GitHub statistics" />
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abood991B&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=07111F&title_color=22D3EE&text_color=BCD7EE" alt="Most used languages" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Abood991B&theme=tokyonight" alt="Abdulrahman's GitHub statistics" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Abood991B&theme=tokyonight" alt="Repositories by language" />
 </p>
 
 <p align="center">
-  <img width="98%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Abood991B&theme=tokyonight" alt="GitHub contribution profile summary" />
+  <img width="75%" src="https://streak-stats.demolab.com?user=Abood991B&theme=tokyonight&hide_border=true&background=07111F&ring=22D3EE&fire=8B5CF6&currStreakLabel=22D3EE" alt="GitHub contribution streak" />
 </p>
 
 ## `05 / CURRENT VECTOR`
