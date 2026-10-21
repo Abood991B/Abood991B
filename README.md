@@ -11,12 +11,10 @@
 
 ## Selected work
 
-| Project | What it demonstrates | Evidence |
-| --- | --- | --- |
-| [**InsightBull**](https://github.com/Abood991B/insightbull) | Full-stack financial sentiment platform using FinBERT and Gemini | 91%+ sentiment accuracy, 5 data sources, and an automated 45-minute market-hours pipeline |
-| [**CortexaAI**](https://github.com/Abood991B/CortexaAI) | Multi-agent prompt engineering with LangChain and LangGraph | 6 LLM providers, a 7-node workflow, real-time SSE, and 79 REST endpoints |
-| [**Retinal Vessel Segmentation**](https://github.com/Abood991B/retinal-vessel-segmentation) | Classical computer vision for medical imaging | 95.6% accuracy across 100 fundus images, with automated parameter search |
-| [**Mental Health Text Classification**](https://github.com/Abood991B/Mental-Health-Status-Classification-from-Social-Media) | Multi-class NLP experimentation at dataset scale | 7 classes and 52,543 prepared posts across traditional ML, neural, and transformer approaches |
+- [**InsightBull**](https://github.com/Abood991B/insightbull) — full-stack financial sentiment with FinBERT and Gemini. **Evidence:** 91%+ sentiment accuracy, 5 data sources, and an automated 45-minute market-hours pipeline.
+- [**CortexaAI**](https://github.com/Abood991B/CortexaAI) — multi-agent prompt engineering with LangChain and LangGraph. **Evidence:** 6 LLM providers, a 7-node workflow, real-time SSE, and 79 REST endpoints.
+- [**Retinal Vessel Segmentation**](https://github.com/Abood991B/retinal-vessel-segmentation) — classical computer vision for medical imaging. **Evidence:** 95.6% accuracy across 100 fundus images, with automated parameter search.
+- [**Mental Health Text Classification**](https://github.com/Abood991B/Mental-Health-Status-Classification-from-Social-Media) — multi-class NLP experimentation at dataset scale. **Evidence:** 7 classes and 52,543 prepared posts across traditional ML, neural, and transformer approaches.
 
 ## Core toolkit
 
