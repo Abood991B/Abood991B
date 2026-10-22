@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/abdulrahman-baidaq-05781b2a9/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn" /></a>
+  <a href="https://linkedin.com/in/abdulrahmanbaidaq"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn" /></a>
   <a href="https://github.com/Abood991B?tab=repositories"><img src="https://img.shields.io/badge/Projects-Explore-111827?style=for-the-badge&logo=github&logoColor=white" alt="Explore GitHub projects" /></a>
 </p>
 
@@ -88,7 +88,7 @@
 > I am most interested in the layer where model capability becomes product reliability: grounded retrieval, agent coordination, evaluation, observable pipelines, and interfaces people can actually use.
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/abdulrahman-baidaq-05781b2a9/"><img src="https://img.shields.io/badge/LET'S_CONNECT-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect with Abdulrahman on LinkedIn" /></a>
+  <a href="https://linkedin.com/in/abdulrahmanbaidaq"><img src="https://img.shields.io/badge/LET'S_CONNECT-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect with Abdulrahman on LinkedIn" /></a>
   <a href="https://github.com/Abood991B?tab=repositories"><img src="https://img.shields.io/badge/EXPLORE_THE_WORK-GitHub-111827?style=for-the-badge&logo=github&logoColor=white" alt="Explore Abdulrahman's repositories" /></a>
   <a href="mailto:abdulrahman16baidaq@gmail.com"><img src="https://img.shields.io/badge/EMAIL-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Abdulrahman" /></a>
 </p>
