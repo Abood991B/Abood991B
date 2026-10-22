@@ -83,7 +83,7 @@
   <img width="760" src="https://github-readme-streak-stats.herokuapp.com/?user=Abood991B&theme=dark&hide_border=true&background=07111F&stroke=1E3A5F&ring=3B82F6&fire=F59E0B&currStreakLabel=22D3EE&sideLabels=BCD7EE&currStreakNum=F4FBFF&sideNums=F4FBFF&dates=6F8EAA" alt="GitHub contributions, current streak, and longest streak" />
 </p>
 
-## 05 / CURRENT VECTOR
+## 05 / FOCUS
 
 > I am most interested in the layer where model capability becomes product reliability: grounded retrieval, agent coordination, evaluation, observable pipelines, and interfaces people can actually use.
 
