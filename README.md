@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/hero.svg" width="100%" alt="Abdulrahman Baidaq — AI Engineer focused on reliable LLM applications, applied machine learning, and data products" />
+  <img src="./assets/hero-v3.svg" width="100%" alt="Abdulrahman Baidaq — AI Engineer focused on reliable LLM applications, applied machine learning, and data products" />
 </p>
 
 <p align="center">

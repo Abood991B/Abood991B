@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="240" viewBox="0 0 900 240" role="img" aria-labelledby="title desc">
   <title id="title">Abdulrahman Baidaq — AI Engineer</title>
-  <desc id="desc">A restrained dark banner introducing Abdulrahman Baidaq and his focus on LLM applications, applied machine learning, and data products.</desc>
+  <desc id="desc">Restrained dark banner introducing Abdulrahman Baidaq and his focus on LLM applications, applied machine learning, and data products.</desc>
   <defs>
     <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0d1117"/>
