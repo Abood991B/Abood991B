@@ -1,64 +1,55 @@
 <p align="center">
-  <img src="./assets/hero-v3.svg" width="100%" alt="Abdulrahman Baidaq — AI Engineer focused on reliable LLM applications, applied machine learning, and data products" />
-</p>
-
-<p align="center">
-  I build applications around language models and machine learning, with an emphasis on evaluation, maintainable architecture, and complete paths from data to interface.
+  <img src="./assets/hero-v4.svg" width="100%" alt="Abdulrahman Baidaq — AI Engineer. From data and models to dependable software." />
 </p>
 
 <p align="center">
   <a href="https://linkedin.com/in/abdulrahmanbaidaq">LinkedIn</a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/Abood991B?tab=repositories">All repositories</a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://github.com/Abood991B?tab=repositories">Repositories</a>
 </p>
 
-## Selected projects
+Hi, I'm Abdulrahman. I work on AI products across LLM applications, applied machine learning, and data engineering. I care about the less glamorous parts that make these systems useful: evaluation, failure handling, data quality, and the path from a notebook to a working interface.
 
-### [InsightBull](https://github.com/Abood991B/insightbull)
+## Work worth opening
 
-`Python` `FastAPI` `React` `TypeScript` `FinBERT` `PostgreSQL`
+<a href="https://github.com/Abood991B/insightbull">
+  <img src="./assets/insightbull-card.svg" width="100%" alt="InsightBull — a full-stack financial sentiment platform" />
+</a>
 
-A full-stack financial sentiment research platform that collects market news from multiple sources, combines transformer-based sentiment scoring with generative analysis, and presents the results alongside market data. The project includes scheduled ingestion, authentication, observability, and an interactive analysis interface.
+**[InsightBull](https://github.com/Abood991B/insightbull)** is my most complete product build so far. It pulls market news from several sources, scores sentiment with FinBERT, adds LLM-assisted analysis, and brings the result into a React dashboard. I also built the scheduled pipeline, authentication, API, database layer, and operational controls around it.
 
-### [CortexaAI](https://github.com/Abood991B/CortexaAI)
+<a href="https://github.com/Abood991B/CortexaAI">
+  <img src="./assets/cortexa-card.svg" width="100%" alt="CortexaAI — a multi-provider prompt refinement and evaluation workspace" />
+</a>
 
-`Python` `FastAPI` `React` `LangChain` `LangGraph` `SSE`
+I built **[CortexaAI](https://github.com/Abood991B/CortexaAI)** to explore whether prompt improvement could be treated as a repeatable workflow instead of a one-off chat. A LangGraph pipeline classifies, refines, and evaluates prompts while the application handles multiple model providers, streaming, batch work, and fallback routing.
 
-A multi-provider prompt-engineering workspace built around a graph-based agent workflow. It supports prompt classification, expert refinement, structured evaluation, real-time streaming, batch processing, and provider fallback in a complete API and web application.
+<a href="https://github.com/Abood991B/retinal-vessel-segmentation">
+  <img src="./assets/applied-ml-card.svg" width="100%" alt="Applied machine learning work across computer vision, NLP, and reproducible evaluation" />
+</a>
 
-### [Retinal Vessel Segmentation](https://github.com/Abood991B/retinal-vessel-segmentation)
+Smaller research projects let me stay close to the mechanics of modelling and evaluation. That includes **[retinal vessel segmentation](https://github.com/Abood991B/retinal-vessel-segmentation)** with classical computer vision and **[mental-health text classification](https://github.com/Abood991B/Mental-Health-Status-Classification-from-Social-Media)** across traditional ML, neural networks, and transformers. Both are academic projects, not clinical or diagnostic tools.
 
-`Python` `OpenCV` `NumPy` `Computer vision`
+## What I bring to a build
 
-A reproducible classical computer-vision pipeline for retinal vessel segmentation, with preprocessing, parameter optimisation, evaluation against annotated masks, and generated result reports. This is an academic image-analysis project, not a clinical tool.
+<p align="center">
+  <img src="./assets/capabilities.svg" width="100%" alt="AI systems, applied machine learning, and product engineering capabilities" />
+</p>
 
-### [Global Air Quality Dashboard](https://Abood991B.github.io/air-pollution-dashboard/)
+The tools change from project to project. The pattern does not: understand the data, decide how quality will be measured, build for failure, and make the result usable by someone other than the person who trained the model.
 
-`JavaScript` `D3.js` `Data visualisation`
+## Other projects
 
-An interactive data story for exploring air-quality patterns across countries, cities, pollutants, and AQI categories. Six connected visualisations turn a global dataset into a navigable analytical dashboard.
+| Project | What I worked on |
+| --- | --- |
+| [Global Air Quality Dashboard](https://Abood991B.github.io/air-pollution-dashboard/) | Six connected D3 visualisations for exploring AQI patterns across countries, cities, and pollutants. |
+| [Heart Disease Prediction](https://github.com/Abood991B/heart-disease-prediction-streamlit) | Exploratory analysis, class-imbalance handling, model comparison, and a Streamlit interface. Educational prototype; not medical advice. |
+| [Apify Content Program Actors](https://github.com/Abood991B/apify-content-program-actors) | Practical web-data automation and structured content extraction. |
 
-### Additional work
+## Current focus
 
-- [Mental Health Text Classification](https://github.com/Abood991B/Mental-Health-Status-Classification-from-Social-Media) — a comparative NLP workflow covering traditional machine learning, neural networks, transformers, opinion mining, and reproducible result generation. It is a research project, not a diagnostic system.
-- [Heart Disease Prediction](https://github.com/Abood991B/heart-disease-prediction-streamlit) — an end-to-end classification project covering exploratory analysis, imbalance handling, model comparison, and a deployed Streamlit interface. It is an educational prototype, not medical advice.
-
-## Technical focus
-
-- **LLM applications:** retrieval-augmented generation, tool use, agent workflows, structured outputs, streaming, and evaluation
-- **Applied machine learning:** NLP, computer vision, model comparison, error analysis, and reproducible experimentation
-- **Product engineering:** Python, FastAPI, TypeScript, React, PostgreSQL, Docker, CI/CD, and observable data pipelines
-
-## How I work
-
-- Start with a measurable problem and make evaluation criteria explicit.
-- Design for failure modes, reproducibility, and maintainability—not only the demo path.
-- Build the full path from ingestion and modelling to APIs and usable interfaces.
-
-## Current interests
-
-I am currently focused on reliable LLM applications: grounded retrieval, agent coordination, evaluation, and the engineering needed to move model capability into dependable software.
+Right now, I'm most interested in the engineering around reliable LLM applications: grounded retrieval, agent coordination, evaluation, and the controls that keep a useful demo from becoming a fragile product.
 
 ## Contact
 
-The best place to reach me is [LinkedIn](https://linkedin.com/in/abdulrahmanbaidaq). You can also explore the implementation details, documentation, and results in the repositories linked above.
+If you want to discuss an AI build, compare notes on evaluation, or ask about one of the projects above, the best place to reach me is [LinkedIn](https://linkedin.com/in/abdulrahmanbaidaq).

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="310" viewBox="0 0 1000 310" role="img" aria-labelledby="title desc">
+  <title id="title">InsightBull project</title>
+  <desc id="desc">Financial sentiment from live data to a working full-stack product.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b1220"/><stop offset="1" stop-color="#101c2f"/></linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#38bdf8"/><stop offset="1" stop-color="#34d399"/></linearGradient>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5"/></filter>
+  </defs>
+  <rect width="1000" height="310" rx="20" fill="url(#bg)"/>
+  <rect x=".75" y=".75" width="998.5" height="308.5" rx="19.25" fill="none" stroke="#263449" stroke-width="1.5"/>
+  <rect x="0" y="0" width="7" height="310" rx="3.5" fill="#34d399"/>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <text x="55" y="58" fill="#34d399" font-size="12" font-weight="700" letter-spacing="3">FLAGSHIP · FULL-STACK AI</text>
+    <text x="53" y="116" fill="#f8fafc" font-size="46" font-weight="760" letter-spacing="-1">INSIGHTBULL</text>
+    <text x="55" y="155" fill="#cbd5e1" font-size="19" font-weight="520">Financial sentiment, from live data to a working product.</text>
+    <text x="55" y="205" fill="#94a3b8" font-size="14">NEWS INGESTION  /  FINBERT  /  LLM ANALYSIS  /  API  /  REACT</text>
+    <text x="55" y="257" fill="#f8fafc" font-size="15" font-weight="650">Scheduled pipeline · authentication · observability · analysis UI</text>
+  </g>
+  <g transform="translate(620 44)">
+    <rect width="322" height="222" rx="15" fill="#0b1220" stroke="#263449"/>
+    <text x="22" y="31" fill="#64748b" font-family="IBM Plex Mono,Consolas,monospace" font-size="10" letter-spacing="1.5">SENTIMENT / PRICE TRACE</text>
+    <path d="M25 178H298M25 135H298M25 92H298M70 48V195M127 48V195M184 48V195M241 48V195" stroke="#334155" stroke-opacity=".55"/>
+    <path d="M27 162C60 150 75 169 105 138S151 112 180 123S221 88 251 103S276 68 297 58" fill="none" stroke="#38bdf8" stroke-width="3"/>
+    <path d="M27 176C55 169 85 147 108 155S151 141 177 119S218 127 246 95S273 110 297 76" fill="none" stroke="#34d399" stroke-width="2.5"/>
+    <circle cx="297" cy="58" r="5" fill="#38bdf8"/><circle cx="297" cy="76" r="5" fill="#34d399"/>
+    <circle cx="297" cy="58" r="12" fill="#38bdf8" opacity=".15" filter="url(#soft)"/>
+    <g font-family="IBM Plex Mono,Consolas,monospace" font-size="9" fill="#94a3b8"><text x="25" y="211">SOURCE</text><text x="135" y="211">ANALYSE</text><text x="252" y="211">SURFACE</text></g>
+  </g>
+</svg>
