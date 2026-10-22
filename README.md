@@ -9,7 +9,6 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/abdulrahman-baidaq-05781b2a9/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn" /></a>
   <a href="https://github.com/Abood991B?tab=repositories"><img src="https://img.shields.io/badge/Projects-Explore-111827?style=for-the-badge&logo=github&logoColor=white" alt="Explore GitHub projects" /></a>
-  <img src="https://komarev.com/ghpvc/?username=Abood991B&style=for-the-badge&color=0891b2&label=PROFILE+VIEWS" alt="Profile views" />
 </p>
 
 ## `01 / SYSTEM PROFILE`
@@ -80,15 +79,10 @@ engineering_mode: "measurable outcomes, clear architecture, maintainable deliver
 
 </details>
 
-## `04 / GITHUB TELEMETRY`
+## `04 / GITHUB SIGNAL`
 
 <p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Abood991B&show_icons=true&include_all_commits=true&count_private=false&theme=tokyonight&hide_border=true&bg_color=07111F&title_color=22D3EE&text_color=BCD7EE&icon_color=8B5CF6" alt="Abdulrahman's GitHub statistics" />
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abood991B&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=07111F&title_color=22D3EE&text_color=BCD7EE" alt="Most used languages" />
-</p>
-
-<p align="center">
-  <img width="98%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Abood991B&theme=tokyonight" alt="GitHub contribution profile summary" />
+  <img width="98%" src="https://github-readme-streak-stats.herokuapp.com/?user=Abood991B&theme=dark&hide_border=true&background=07111F&stroke=1E3A5F&ring=3B82F6&fire=F59E0B&currStreakLabel=22D3EE&sideLabels=BCD7EE&currStreakNum=F4FBFF&sideNums=F4FBFF&dates=6F8EAA" alt="GitHub contributions, current streak, and longest streak" />
 </p>
 
 ## `05 / CURRENT VECTOR`
@@ -98,6 +92,7 @@ engineering_mode: "measurable outcomes, clear architecture, maintainable deliver
 <p align="center">
   <a href="https://www.linkedin.com/in/abdulrahman-baidaq-05781b2a9/"><img src="https://img.shields.io/badge/LET'S_CONNECT-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect with Abdulrahman on LinkedIn" /></a>
   <a href="https://github.com/Abood991B?tab=repositories"><img src="https://img.shields.io/badge/EXPLORE_THE_WORK-GitHub-111827?style=for-the-badge&logo=github&logoColor=white" alt="Explore Abdulrahman's repositories" /></a>
+  <a href="mailto:abdulrahman16baidaq@gmail.com"><img src="https://img.shields.io/badge/EMAIL-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Abdulrahman" /></a>
 </p>
 
 <p align="center"><sub>Built around evidence, not decoration.</sub></p>
