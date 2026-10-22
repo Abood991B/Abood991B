@@ -60,27 +60,18 @@
 <a href="https://github.com/Abood991B/retinal-vessel-segmentation"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Abood991B&repo=retinal-vessel-segmentation&theme=tokyonight&hide_border=true&bg_color=07111F&title_color=22D3EE&text_color=BCD7EE&icon_color=8B5CF6" alt="Retinal vessel segmentation repository card" /></a>
 <a href="https://github.com/Abood991B/Mental-Health-Status-Classification-from-Social-Media"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Abood991B&repo=Mental-Health-Status-Classification-from-Social-Media&theme=tokyonight&hide_border=true&bg_color=07111F&title_color=22D3EE&text_color=BCD7EE&icon_color=8B5CF6" alt="Mental health text classification repository card" /></a>
 
-| Build | Stack |
-| --- | --- |
-| [**InsightBull**](https://github.com/Abood991B/insightbull) | Python · TypeScript · CSS · HTML |
-| [**CortexaAI**](https://github.com/Abood991B/CortexaAI) | Python · TypeScript · FastAPI · React |
-| [**Retinal Vessel Segmentation**](https://github.com/Abood991B/retinal-vessel-segmentation) | Python · OpenCV |
-| [**Mental Health Text Classification**](https://github.com/Abood991B/Mental-Health-Status-Classification-from-Social-Media) | Python · Jupyter Notebook |
-| [**Heart Disease Prediction**](https://github.com/Abood991B/heart-disease-prediction-streamlit) | Python · Jupyter Notebook · Streamlit |
-| [**Global Air Quality Dashboard**](https://Abood991B.github.io/air-pollution-dashboard/) | JavaScript · HTML · CSS · D3.js |
-
 <details>
 <summary><strong>Open the project evidence log</strong></summary>
 <br />
 
 | Build | Engineering signal |
 | --- | --- |
-| [**InsightBull**](https://github.com/Abood991B/insightbull) | Hybrid FinBERT + Gemini financial sentiment platform with **91%+ accuracy**, five data sources, and an automated market-hours pipeline |
-| [**CortexaAI**](https://github.com/Abood991B/CortexaAI) | Multi-agent prompt engineering across **six LLM providers**, a seven-node LangGraph workflow, SSE streaming, and **79 REST endpoints** |
-| [**Retinal Vessel Segmentation**](https://github.com/Abood991B/retinal-vessel-segmentation) | Nine-stage classical vision pipeline evaluated on **100 fundus images** with **95.6% accuracy** |
-| [**Mental Health Text Classification**](https://github.com/Abood991B/Mental-Health-Status-Classification-from-Social-Media) | Seven-class NLP pipeline over **52,543 prepared posts**, comparing traditional ML, neural networks, and transformers |
-| [**Heart Disease Prediction**](https://github.com/Abood991B/heart-disease-prediction-streamlit) | End-to-end modeling workflow with imbalance handling, model comparison, and a deployed Streamlit interface |
-| [**Global Air Quality Dashboard**](https://Abood991B.github.io/air-pollution-dashboard/) | Interactive D3.js data story with six connected visualizations and a live GitHub Pages deployment |
+| [**InsightBull**](https://github.com/Abood991B/insightbull) | Hybrid FinBERT + Gemini financial sentiment platform with **91%+ accuracy**, five data sources, and an automated market-hours pipeline<br /><sub>Python · TypeScript · CSS · HTML</sub> |
+| [**CortexaAI**](https://github.com/Abood991B/CortexaAI) | Multi-agent prompt engineering across **six LLM providers**, a seven-node LangGraph workflow, SSE streaming, and **79 REST endpoints**<br /><sub>Python · TypeScript · FastAPI · React</sub> |
+| [**Retinal Vessel Segmentation**](https://github.com/Abood991B/retinal-vessel-segmentation) | Nine-stage classical vision pipeline evaluated on **100 fundus images** with **95.6% accuracy**<br /><sub>Python · OpenCV</sub> |
+| [**Mental Health Text Classification**](https://github.com/Abood991B/Mental-Health-Status-Classification-from-Social-Media) | Seven-class NLP pipeline over **52,543 prepared posts**, comparing traditional ML, neural networks, and transformers<br /><sub>Python · Jupyter Notebook</sub> |
+| [**Heart Disease Prediction**](https://github.com/Abood991B/heart-disease-prediction-streamlit) | End-to-end modeling workflow with imbalance handling, model comparison, and a deployed Streamlit interface<br /><sub>Python · Jupyter Notebook · Streamlit</sub> |
+| [**Global Air Quality Dashboard**](https://Abood991B.github.io/air-pollution-dashboard/) | Interactive D3.js data story with six connected visualizations and a live GitHub Pages deployment<br /><sub>JavaScript · HTML · CSS · D3.js</sub> |
 
 </details>
 
