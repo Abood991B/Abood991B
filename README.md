@@ -11,36 +11,30 @@
   <a href="https://github.com/Abood991B?tab=repositories"><img src="https://img.shields.io/badge/Projects-Explore-111827?style=for-the-badge&logo=github&logoColor=white" alt="Explore GitHub projects" /></a>
 </p>
 
-## `01 / SYSTEM PROFILE`
+## 01 / IDENTITY
 
-```yaml
-name: Abdulrahman Baidaq
-role: AI Engineer
-focus:
-  - LLM applications and agentic systems
-  - Applied machine learning and evaluation
-  - Data products from ingestion to interface
-engineering_mode: "measurable outcomes, clear architecture, maintainable delivery"
-```
+> **AI Engineer building useful systems beyond the notebook.** I work across LLM applications, agentic workflows, applied machine learning, and data products, with a focus on measurable outcomes, clear architecture, and maintainable delivery.
 
 <div align="center">
   <img src="./assets/impact.svg" width="800" alt="Selected engineering impact: 91%+ sentiment accuracy, 79 REST endpoints, 52K+ posts modeled, and 100 fundus images evaluated" />
 </div>
 
-## `02 / TOOLCHAIN`
+## 02 / TOOLCHAIN
+
+> The stack I use to move from model idea to reliable product.
 
 <p><strong>Languages & product engineering</strong></p>
 <p>
   <img src="https://img.shields.io/badge/Python-07111F?style=for-the-badge&logo=python&logoColor=22D3EE" alt="Python" />
   <img src="https://img.shields.io/badge/TypeScript-07111F?style=for-the-badge&logo=typescript&logoColor=3B82F6" alt="TypeScript" />
   <img src="https://img.shields.io/badge/JavaScript-07111F?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/SQL-07111F?style=for-the-badge&logo=postgresql&logoColor=22D3EE" alt="SQL" />
+  <img src="https://img.shields.io/badge/SQL-07111F?style=for-the-badge&logo=sqlite&logoColor=22D3EE" alt="SQL" />
 </p>
 
 <p><strong>AI, machine learning & orchestration</strong></p>
 <p>
   <img src="https://img.shields.io/badge/LangChain-07111F?style=for-the-badge&logo=langchain&logoColor=22D3EE" alt="LangChain" />
-  <img src="https://img.shields.io/badge/LangGraph-07111F?style=for-the-badge&logo=graphql&logoColor=8B5CF6" alt="LangGraph" />
+  <img src="https://img.shields.io/badge/LangGraph-07111F?style=for-the-badge&logo=langgraph&logoColor=8B5CF6" alt="LangGraph" />
   <img src="https://img.shields.io/badge/PyTorch-07111F?style=for-the-badge&logo=pytorch&logoColor=EE4C2C" alt="PyTorch" />
   <img src="https://img.shields.io/badge/scikit--learn-07111F?style=for-the-badge&logo=scikitlearn&logoColor=F7931E" alt="scikit-learn" />
   <img src="https://img.shields.io/badge/Hugging_Face-07111F?style=for-the-badge&logo=huggingface&logoColor=FFD21E" alt="Hugging Face" />
@@ -57,7 +51,9 @@ engineering_mode: "measurable outcomes, clear architecture, maintainable deliver
   <img src="https://img.shields.io/badge/GitHub_Actions-07111F?style=for-the-badge&logo=githubactions&logoColor=2088FF" alt="GitHub Actions" />
 </p>
 
-## `03 / FEATURED BUILDS`
+## 03 / FEATURED BUILDS
+
+> Selected work, with the engineering signal made explicit.
 
 <a href="https://github.com/Abood991B/insightbull"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Abood991B&repo=insightbull&theme=tokyonight&hide_border=true&bg_color=07111F&title_color=22D3EE&text_color=BCD7EE&icon_color=8B5CF6" alt="InsightBull repository card" /></a>
 <a href="https://github.com/Abood991B/CortexaAI"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Abood991B&repo=CortexaAI&theme=tokyonight&hide_border=true&bg_color=07111F&title_color=22D3EE&text_color=BCD7EE&icon_color=8B5CF6" alt="CortexaAI repository card" /></a>
@@ -79,13 +75,15 @@ engineering_mode: "measurable outcomes, clear architecture, maintainable deliver
 
 </details>
 
-## `04 / GITHUB SIGNAL`
+## 04 / GITHUB SIGNAL
+
+> Consistency is part of shipping.
 
 <p align="center">
-  <img width="98%" src="https://github-readme-streak-stats.herokuapp.com/?user=Abood991B&theme=dark&hide_border=true&background=07111F&stroke=1E3A5F&ring=3B82F6&fire=F59E0B&currStreakLabel=22D3EE&sideLabels=BCD7EE&currStreakNum=F4FBFF&sideNums=F4FBFF&dates=6F8EAA" alt="GitHub contributions, current streak, and longest streak" />
+  <img width="760" src="https://github-readme-streak-stats.herokuapp.com/?user=Abood991B&theme=dark&hide_border=true&background=07111F&stroke=1E3A5F&ring=3B82F6&fire=F59E0B&currStreakLabel=22D3EE&sideLabels=BCD7EE&currStreakNum=F4FBFF&sideNums=F4FBFF&dates=6F8EAA" alt="GitHub contributions, current streak, and longest streak" />
 </p>
 
-## `05 / CURRENT VECTOR`
+## 05 / CURRENT VECTOR
 
 > I am most interested in the layer where model capability becomes product reliability: grounded retrieval, agent coordination, evaluation, observable pipelines, and interfaces people can actually use.
 
