@@ -1,64 +1,103 @@
+<div align="center">
+  <img src="./assets/hero.svg" width="100%" alt="Abdulrahman Baidaq — AI Engineer building LLM systems, applied machine learning, and data products" />
+</div>
+
 <p align="center">
-  <img src="./assets/hero-v3.svg" width="100%" alt="Abdulrahman Baidaq — AI Engineer focused on reliable LLM applications, applied machine learning, and data products" />
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&pause=1000&color=22D3EE&center=true&vCenter=true&width=760&lines=Building+AI+systems+that+move+beyond+the+notebook;From+data+pipelines+and+evaluation+to+APIs+and+products;LLM+agents+%7C+Applied+ML+%7C+Production-minded+engineering" alt="Animated introduction" /></a>
 </p>
 
 <p align="center">
-  I build applications around language models and machine learning, with an emphasis on evaluation, maintainable architecture, and complete paths from data to interface.
+  <a href="https://www.linkedin.com/in/abdulrahman-baidaq-05781b2a9/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn" /></a>
+  <a href="https://github.com/Abood991B?tab=repositories"><img src="https://img.shields.io/badge/Projects-Explore-111827?style=for-the-badge&logo=github&logoColor=white" alt="Explore GitHub projects" /></a>
+  <img src="https://komarev.com/ghpvc/?username=Abood991B&style=for-the-badge&color=0891b2&label=PROFILE+VIEWS" alt="Profile views" />
+</p>
+
+## `01 / SYSTEM PROFILE`
+
+```yaml
+name: Abdulrahman Baidaq
+role: AI Engineer
+focus:
+  - LLM applications and agentic systems
+  - Applied machine learning and evaluation
+  - Data products from ingestion to interface
+engineering_mode: "measurable outcomes, clear architecture, maintainable delivery"
+```
+
+<div align="center">
+  <img src="./assets/impact.svg" width="800" alt="Selected engineering impact: 91%+ sentiment accuracy, 79 REST endpoints, 52K+ posts modeled, and 100 fundus images evaluated" />
+</div>
+
+## `02 / TOOLCHAIN`
+
+<p><strong>Languages & product engineering</strong></p>
+<p>
+  <img src="https://img.shields.io/badge/Python-07111F?style=for-the-badge&logo=python&logoColor=22D3EE" alt="Python" />
+  <img src="https://img.shields.io/badge/TypeScript-07111F?style=for-the-badge&logo=typescript&logoColor=3B82F6" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/JavaScript-07111F?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/SQL-07111F?style=for-the-badge&logo=postgresql&logoColor=22D3EE" alt="SQL" />
+</p>
+
+<p><strong>AI, machine learning & orchestration</strong></p>
+<p>
+  <img src="https://img.shields.io/badge/LangChain-07111F?style=for-the-badge&logo=langchain&logoColor=22D3EE" alt="LangChain" />
+  <img src="https://img.shields.io/badge/LangGraph-07111F?style=for-the-badge&logo=graphql&logoColor=8B5CF6" alt="LangGraph" />
+  <img src="https://img.shields.io/badge/PyTorch-07111F?style=for-the-badge&logo=pytorch&logoColor=EE4C2C" alt="PyTorch" />
+  <img src="https://img.shields.io/badge/scikit--learn-07111F?style=for-the-badge&logo=scikitlearn&logoColor=F7931E" alt="scikit-learn" />
+  <img src="https://img.shields.io/badge/Hugging_Face-07111F?style=for-the-badge&logo=huggingface&logoColor=FFD21E" alt="Hugging Face" />
+  <img src="https://img.shields.io/badge/OpenCV-07111F?style=for-the-badge&logo=opencv&logoColor=5C3EE8" alt="OpenCV" />
+</p>
+
+<p><strong>APIs, data & delivery</strong></p>
+<p>
+  <img src="https://img.shields.io/badge/FastAPI-07111F?style=for-the-badge&logo=fastapi&logoColor=00C7B7" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/React-07111F?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/PostgreSQL-07111F?style=for-the-badge&logo=postgresql&logoColor=4169E1" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/Docker-07111F?style=for-the-badge&logo=docker&logoColor=2496ED" alt="Docker" />
+  <img src="https://img.shields.io/badge/Streamlit-07111F?style=for-the-badge&logo=streamlit&logoColor=FF4B4B" alt="Streamlit" />
+  <img src="https://img.shields.io/badge/GitHub_Actions-07111F?style=for-the-badge&logo=githubactions&logoColor=2088FF" alt="GitHub Actions" />
+</p>
+
+## `03 / FEATURED BUILDS`
+
+<a href="https://github.com/Abood991B/insightbull"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Abood991B&repo=insightbull&theme=tokyonight&hide_border=true&bg_color=07111F&title_color=22D3EE&text_color=BCD7EE&icon_color=8B5CF6" alt="InsightBull repository card" /></a>
+<a href="https://github.com/Abood991B/CortexaAI"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Abood991B&repo=CortexaAI&theme=tokyonight&hide_border=true&bg_color=07111F&title_color=22D3EE&text_color=BCD7EE&icon_color=8B5CF6" alt="CortexaAI repository card" /></a>
+<a href="https://github.com/Abood991B/retinal-vessel-segmentation"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Abood991B&repo=retinal-vessel-segmentation&theme=tokyonight&hide_border=true&bg_color=07111F&title_color=22D3EE&text_color=BCD7EE&icon_color=8B5CF6" alt="Retinal vessel segmentation repository card" /></a>
+<a href="https://github.com/Abood991B/Mental-Health-Status-Classification-from-Social-Media"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Abood991B&repo=Mental-Health-Status-Classification-from-Social-Media&theme=tokyonight&hide_border=true&bg_color=07111F&title_color=22D3EE&text_color=BCD7EE&icon_color=8B5CF6" alt="Mental health text classification repository card" /></a>
+
+<details>
+<summary><strong>Open the project evidence log</strong></summary>
+<br />
+
+| Build | Engineering signal |
+| --- | --- |
+| [**InsightBull**](https://github.com/Abood991B/insightbull) | Hybrid FinBERT + Gemini financial sentiment platform with **91%+ accuracy**, five data sources, and an automated market-hours pipeline |
+| [**CortexaAI**](https://github.com/Abood991B/CortexaAI) | Multi-agent prompt engineering across **six LLM providers**, a seven-node LangGraph workflow, SSE streaming, and **79 REST endpoints** |
+| [**Retinal Vessel Segmentation**](https://github.com/Abood991B/retinal-vessel-segmentation) | Nine-stage classical vision pipeline evaluated on **100 fundus images** with **95.6% accuracy** |
+| [**Mental Health Text Classification**](https://github.com/Abood991B/Mental-Health-Status-Classification-from-Social-Media) | Seven-class NLP pipeline over **52,543 prepared posts**, comparing traditional ML, neural networks, and transformers |
+| [**Heart Disease Prediction**](https://github.com/Abood991B/heart-disease-prediction-streamlit) | End-to-end modeling workflow with imbalance handling, model comparison, and a deployed Streamlit interface |
+| [**Global Air Quality Dashboard**](https://Abood991B.github.io/air-pollution-dashboard/) | Interactive D3.js data story with six connected visualizations and a live GitHub Pages deployment |
+
+</details>
+
+## `04 / GITHUB TELEMETRY`
+
+<p align="center">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Abood991B&show_icons=true&include_all_commits=true&count_private=false&theme=tokyonight&hide_border=true&bg_color=07111F&title_color=22D3EE&text_color=BCD7EE&icon_color=8B5CF6" alt="Abdulrahman's GitHub statistics" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abood991B&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=07111F&title_color=22D3EE&text_color=BCD7EE" alt="Most used languages" />
 </p>
 
 <p align="center">
-  <a href="https://linkedin.com/in/abdulrahmanbaidaq">LinkedIn</a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/Abood991B?tab=repositories">All repositories</a>
+  <img width="98%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Abood991B&theme=tokyonight" alt="GitHub contribution profile summary" />
 </p>
 
-## Selected projects
+## `05 / CURRENT VECTOR`
 
-### [InsightBull](https://github.com/Abood991B/insightbull)
+> I am most interested in the layer where model capability becomes product reliability: grounded retrieval, agent coordination, evaluation, observable pipelines, and interfaces people can actually use.
 
-`Python` `FastAPI` `React` `TypeScript` `FinBERT` `PostgreSQL`
+<p align="center">
+  <a href="https://www.linkedin.com/in/abdulrahman-baidaq-05781b2a9/"><img src="https://img.shields.io/badge/LET'S_CONNECT-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect with Abdulrahman on LinkedIn" /></a>
+  <a href="https://github.com/Abood991B?tab=repositories"><img src="https://img.shields.io/badge/EXPLORE_THE_WORK-GitHub-111827?style=for-the-badge&logo=github&logoColor=white" alt="Explore Abdulrahman's repositories" /></a>
+</p>
 
-A full-stack financial sentiment research platform that collects market news from multiple sources, combines transformer-based sentiment scoring with generative analysis, and presents the results alongside market data. The project includes scheduled ingestion, authentication, observability, and an interactive analysis interface.
-
-### [CortexaAI](https://github.com/Abood991B/CortexaAI)
-
-`Python` `FastAPI` `React` `LangChain` `LangGraph` `SSE`
-
-A multi-provider prompt-engineering workspace built around a graph-based agent workflow. It supports prompt classification, expert refinement, structured evaluation, real-time streaming, batch processing, and provider fallback in a complete API and web application.
-
-### [Retinal Vessel Segmentation](https://github.com/Abood991B/retinal-vessel-segmentation)
-
-`Python` `OpenCV` `NumPy` `Computer vision`
-
-A reproducible classical computer-vision pipeline for retinal vessel segmentation, with preprocessing, parameter optimisation, evaluation against annotated masks, and generated result reports. This is an academic image-analysis project, not a clinical tool.
-
-### [Global Air Quality Dashboard](https://Abood991B.github.io/air-pollution-dashboard/)
-
-`JavaScript` `D3.js` `Data visualisation`
-
-An interactive data story for exploring air-quality patterns across countries, cities, pollutants, and AQI categories. Six connected visualisations turn a global dataset into a navigable analytical dashboard.
-
-### Additional work
-
-- [Mental Health Text Classification](https://github.com/Abood991B/Mental-Health-Status-Classification-from-Social-Media) — a comparative NLP workflow covering traditional machine learning, neural networks, transformers, opinion mining, and reproducible result generation. It is a research project, not a diagnostic system.
-- [Heart Disease Prediction](https://github.com/Abood991B/heart-disease-prediction-streamlit) — an end-to-end classification project covering exploratory analysis, imbalance handling, model comparison, and a deployed Streamlit interface. It is an educational prototype, not medical advice.
-
-## Technical focus
-
-- **LLM applications:** retrieval-augmented generation, tool use, agent workflows, structured outputs, streaming, and evaluation
-- **Applied machine learning:** NLP, computer vision, model comparison, error analysis, and reproducible experimentation
-- **Product engineering:** Python, FastAPI, TypeScript, React, PostgreSQL, Docker, CI/CD, and observable data pipelines
-
-## How I work
-
-- Start with a measurable problem and make evaluation criteria explicit.
-- Design for failure modes, reproducibility, and maintainability—not only the demo path.
-- Build the full path from ingestion and modelling to APIs and usable interfaces.
-
-## Current interests
-
-I am currently focused on reliable LLM applications: grounded retrieval, agent coordination, evaluation, and the engineering needed to move model capability into dependable software.
-
-## Contact
-
-The best place to reach me is [LinkedIn](https://linkedin.com/in/abdulrahmanbaidaq). You can also explore the implementation details, documentation, and results in the repositories linked above.
+<p align="center"><sub>Built around evidence, not decoration.</sub></p>
