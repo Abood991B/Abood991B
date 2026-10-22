@@ -1,55 +1,88 @@
 <p align="center">
-  <img src="./assets/hero-v4.svg" width="100%" alt="Abdulrahman Baidaq — AI Engineer. From data and models to dependable software." />
+  <img src="./assets/hero-v5.svg" width="1000" height="240" alt="Abdulrahman Baidaq — AI Engineer building useful systems around models" />
 </p>
 
 <p align="center">
+  <a href="https://fluxtype.app">FluxType</a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
   <a href="https://linkedin.com/in/abdulrahmanbaidaq">LinkedIn</a>
   &nbsp;&nbsp;·&nbsp;&nbsp;
   <a href="https://github.com/Abood991B?tab=repositories">Repositories</a>
 </p>
 
-Hi, I'm Abdulrahman. I work on AI products across LLM applications, applied machine learning, and data engineering. I care about the less glamorous parts that make these systems useful: evaluation, failure handling, data quality, and the path from a notebook to a working interface.
+## About Me
 
-## Work worth opening
+I'm Abdulrahman, an AI engineer who likes owning the full path from an idea to working software. My projects sit across LLM applications, applied machine learning, data engineering, and the product work needed to make those systems useful.
 
-<a href="https://github.com/Abood991B/insightbull">
-  <img src="./assets/insightbull-card.svg" width="100%" alt="InsightBull — a full-stack financial sentiment platform" />
+- **Right now:** building [FluxType](https://fluxtype.app), a local-first voice dictation product for Windows.
+- **How I work:** start with the data and evaluation criteria, then design for failure, maintenance, and delivery.
+- **What interests me:** reliable agents, local AI, retrieval, model evaluation, and human-friendly AI interfaces.
+
+## Building FluxType
+
+<a href="https://fluxtype.app">
+  <img src="./assets/fluxtype-feature.svg" width="1000" height="260" alt="FluxType — local-first voice dictation for Windows" />
 </a>
 
-**[InsightBull](https://github.com/Abood991B/insightbull)** is my most complete product build so far. It pulls market news from several sources, scores sentiment with FinBERT, adds LLM-assisted analysis, and brings the result into a React dashboard. I also built the scheduled pipeline, authentication, API, database layer, and operational controls around it.
+[FluxType](https://fluxtype.app) turns speech into clear text inside standard Windows apps. It can transcribe locally, use explicitly selected cloud providers, apply optional formatting, and insert the result at the cursor. My work spans the Electron and React desktop experience, native Windows integration, model orchestration, offline-first settings, the release pipeline, and the supporting web and backend surfaces.
 
-<a href="https://github.com/Abood991B/CortexaAI">
-  <img src="./assets/cortexa-card.svg" width="100%" alt="CortexaAI — a multi-provider prompt refinement and evaluation workspace" />
-</a>
+The product code lives in a private repository under the [FluxType organization](https://github.com/FluxType-app). GitHub can show the contribution count without exposing private code, repository names, or commit details.
 
-I built **[CortexaAI](https://github.com/Abood991B/CortexaAI)** to explore whether prompt improvement could be treated as a repeatable workflow instead of a one-off chat. A LangGraph pipeline classifies, refines, and evaluates prompts while the application handles multiple model providers, streaming, batch work, and fallback routing.
-
-<a href="https://github.com/Abood991B/retinal-vessel-segmentation">
-  <img src="./assets/applied-ml-card.svg" width="100%" alt="Applied machine learning work across computer vision, NLP, and reproducible evaluation" />
-</a>
-
-Smaller research projects let me stay close to the mechanics of modelling and evaluation. That includes **[retinal vessel segmentation](https://github.com/Abood991B/retinal-vessel-segmentation)** with classical computer vision and **[mental-health text classification](https://github.com/Abood991B/Mental-Health-Status-Classification-from-Social-Media)** across traditional ML, neural networks, and transformers. Both are academic projects, not clinical or diagnostic tools.
-
-## What I bring to a build
+## Technical Toolbox
 
 <p align="center">
-  <img src="./assets/capabilities.svg" width="100%" alt="AI systems, applied machine learning, and product engineering capabilities" />
+  <img src="./assets/stack-v2.svg" width="1000" height="310" alt="Technical stack: Python, TypeScript, JavaScript, Rust, SQL, LangGraph, LangChain, PyTorch, TensorFlow, scikit-learn, OpenCV, FastAPI, PostgreSQL, Supabase, Redis, D3, React, Electron, Docker, GitHub Actions, and Playwright" />
 </p>
 
-The tools change from project to project. The pattern does not: understand the data, decide how quality will be measured, build for failure, and make the result usable by someone other than the person who trained the model.
+## Selected Work
 
-## Other projects
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Abood991B/insightbull"><img src="./assets/project-insightbull.svg" width="480" height="176" alt="InsightBull financial sentiment platform" /></a><br />
+      <strong><a href="https://github.com/Abood991B/insightbull">InsightBull</a></strong><br />
+      Financial-news ingestion, FinBERT sentiment scoring, LLM-assisted analysis, and an interactive market dashboard.<br /><br />
+      <code>Python</code> <code>FastAPI</code> <code>React</code> <code>PostgreSQL</code>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Abood991B/CortexaAI"><img src="./assets/project-cortexa.svg" width="480" height="176" alt="CortexaAI prompt refinement and evaluation workflow" /></a><br />
+      <strong><a href="https://github.com/Abood991B/CortexaAI">CortexaAI</a></strong><br />
+      A graph-based workspace that classifies, refines, and evaluates prompts across multiple model providers.<br /><br />
+      <code>LangGraph</code> <code>FastAPI</code> <code>SSE</code> <code>TypeScript</code>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Abood991B/retinal-vessel-segmentation"><img src="./assets/project-vision.svg" width="480" height="176" alt="Retinal vessel segmentation computer-vision project" /></a><br />
+      <strong><a href="https://github.com/Abood991B/retinal-vessel-segmentation">Retinal Vessel Segmentation</a></strong><br />
+      A reproducible classical computer-vision pipeline with preprocessing, parameter search, and annotated-mask evaluation.<br /><br />
+      <code>Python</code> <code>OpenCV</code> <code>NumPy</code> · Academic research, not a clinical tool.
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://Abood991B.github.io/air-pollution-dashboard/"><img src="./assets/project-air.svg" width="480" height="176" alt="Global Air Quality interactive D3 dashboard" /></a><br />
+      <strong><a href="https://Abood991B.github.io/air-pollution-dashboard/">Global Air Quality Dashboard</a></strong><br />
+      Six connected visualisations for exploring AQI patterns across countries, cities, and pollutants.<br /><br />
+      <code>D3.js</code> <code>JavaScript</code> <code>Data visualisation</code>
+    </td>
+  </tr>
+</table>
 
-| Project | What I worked on |
+## GitHub Footprint
+
+<p align="center">
+  <img src="./assets/profile-metrics.svg" width="1000" height="185" alt="GitHub contribution, repository, star, and fork metrics generated from profile data" />
+</p>
+
+The contribution total includes anonymized activity from private repositories. The card is generated from GitHub data each week inside this repository, so it does not depend on a public stats service or expose private project details.
+
+## More Work
+
+| Project | Focus |
 | --- | --- |
-| [Global Air Quality Dashboard](https://Abood991B.github.io/air-pollution-dashboard/) | Six connected D3 visualisations for exploring AQI patterns across countries, cities, and pollutants. |
-| [Heart Disease Prediction](https://github.com/Abood991B/heart-disease-prediction-streamlit) | Exploratory analysis, class-imbalance handling, model comparison, and a Streamlit interface. Educational prototype; not medical advice. |
-| [Apify Content Program Actors](https://github.com/Abood991B/apify-content-program-actors) | Practical web-data automation and structured content extraction. |
+| [Mental Health Text Classification](https://github.com/Abood991B/Mental-Health-Status-Classification-from-Social-Media) | Comparing traditional ML, neural networks, and transformers for text classification. Academic research; not a diagnostic system. |
+| [Apify Content Program Actors](https://github.com/Abood991B/apify-content-program-actors) | Web-data automation and structured content extraction. |
+| [Heart Disease Prediction](https://github.com/Abood991B/heart-disease-prediction-streamlit) | Model comparison, class-imbalance handling, and a Streamlit interface. Educational prototype; not medical advice. |
 
-## Current focus
+## Let's Talk
 
-Right now, I'm most interested in the engineering around reliable LLM applications: grounded retrieval, agent coordination, evaluation, and the controls that keep a useful demo from becoming a fragile product.
-
-## Contact
-
-If you want to discuss an AI build, compare notes on evaluation, or ask about one of the projects above, the best place to reach me is [LinkedIn](https://linkedin.com/in/abdulrahmanbaidaq).
+If you're working on an AI product, model evaluation, local AI, or the engineering around reliable LLM applications, reach me on [LinkedIn](https://linkedin.com/in/abdulrahmanbaidaq). You can also explore [FluxType](https://fluxtype.app) or open any of the repositories above for implementation details.
