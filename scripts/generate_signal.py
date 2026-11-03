@@ -58,7 +58,7 @@ TEXT = "#dceeff"
 MUTED = "#6f8eaa"
 LABEL = "#79e9f8"
 
-LEVEL_COLOURS = ["#0e1c2f", "#1b3a5c", "#1d6f9e", "#22d3ee", "#8b5cf6"]
+LEVEL_COLOURS = ["#16243a", "#1d4a6b", "#1f7fa8", "#22d3ee", "#8b5cf6"]
 
 TILES = (
     ("contributions", "CONTRIBUTIONS"),
@@ -245,6 +245,12 @@ def render(user: dict) -> str:
     grid_w = columns * (cell + cell_gap) - cell_gap
     grid_x = (WIDTH - grid_w) // 2
     grid_y = 176
+
+    add(
+        f'<text x="{grid_x}" y="{grid_y - 12}" fill="{MUTED}" font-size="10" '
+        'font-family="Consolas,Menlo,monospace" letter-spacing="1.2">CONTRIBUTION CALENDAR</text>'
+    )
+
     for day in days:
         x = grid_x + day["column"] * (cell + cell_gap)
         y = grid_y + day["row"] * (cell + cell_gap)
