@@ -44,7 +44,7 @@ query ($login: String!) {
 """
 
 WIDTH = 800
-HEIGHT = 336
+HEIGHT = 312
 PAD = 32
 
 BG = "#07111f"
@@ -62,9 +62,9 @@ LEVEL_COLOURS = ["#0e1c2f", "#1b3a5c", "#1d6f9e", "#22d3ee", "#8b5cf6"]
 
 TILES = (
     ("contributions", "CONTRIBUTIONS"),
+    ("active_days", "ACTIVE DAYS"),
+    ("longest_streak", "LONGEST STREAK"),
     ("repositories", "PUBLIC REPOS"),
-    ("commits", "COMMITS"),
-    ("pull_requests", "PULL REQUESTS"),
 )
 
 
@@ -169,11 +169,16 @@ def render(user: dict) -> str:
     current_streak, longest_streak = streaks(days)
     cuts = thresholds(days)
 
+    # The calendar pads the current week with future dates; those must not
+    # count towards "days with activity".
+    today = dt.datetime.now(dt.timezone.utc).date()
+    active_days = sum(1 for day in days if day["date"] <= today and day["count"] > 0)
+
     metrics = {
         "contributions": calendar["totalContributions"],
+        "active_days": active_days,
+        "longest_streak": f"{longest_streak}D",
         "repositories": user["repositories"]["totalCount"],
-        "commits": user["contributionsCollection"]["totalCommitContributions"],
-        "pull_requests": user["contributionsCollection"]["totalPullRequestContributions"],
     }
 
     parts: list[str] = []
@@ -185,9 +190,9 @@ def render(user: dict) -> str:
     )
     add(
         f'<title id="signal-title">GitHub activity of the last twelve months</title>'
-        f'<desc id="signal-desc">{metrics["contributions"]} contributions across '
-        f'{len(days)} days, {metrics["repositories"]} public repositories, '
-        f'{metrics["commits"]} commits and {metrics["pull_requests"]} pull requests.</desc>'
+        f'<desc id="signal-desc">{metrics["contributions"]:,} contributions on {active_days} active '
+        f'days, a longest streak of {longest_streak} days, and '
+        f'{metrics["repositories"]} public repositories.</desc>'
     )
     add(
         "<defs>"
@@ -203,7 +208,7 @@ def render(user: dict) -> str:
     add(f'<rect width="{WIDTH}" height="{HEIGHT}" rx="24" fill="{BG}"/>')
     add('<g filter="url(#signal-soft)">')
     add(f'<circle cx="48" cy="16" r="105" fill="{ACCENT_FROM}" opacity=".06"/>')
-    add(f'<circle cx="756" cy="324" r="118" fill="{ACCENT_TO}" opacity=".07"/>')
+    add(f'<circle cx="756" cy="300" r="118" fill="{ACCENT_TO}" opacity=".07"/>')
     add("</g>")
     add('<g font-family="Inter,Segoe UI,Arial,sans-serif">')
 
@@ -220,13 +225,15 @@ def render(user: dict) -> str:
     tile_w = (WIDTH - 2 * PAD - 3 * gap) // 4
     for index, (key, caption) in enumerate(TILES):
         x = PAD + index * (tile_w + gap)
+        value = metrics[key]
+        display = f"{value:,}" if isinstance(value, int) else value
         add(
             f'<rect x="{x}" y="{tile_y}" width="{tile_w}" height="{tile_h}" rx="14" '
             f'fill="url(#signal-panel)" stroke="{BORDER}"/>'
         )
         add(
             f'<text x="{x + 18}" y="{tile_y + 50}" fill="url(#signal-accent)" '
-            f'font-size="30" font-weight="800">{metrics[key]:,}</text>'
+            f'font-size="30" font-weight="800">{display}</text>'
         )
         add(
             f'<text x="{x + 18}" y="{tile_y + 70}" fill="#8fb0cc" font-size="10.5" '
@@ -258,11 +265,10 @@ def render(user: dict) -> str:
         f'<text x="{grid_x + 40 + 5 * (cell + cell_gap) + 4}" y="{legend_y}" fill="{MUTED}" '
         f'font-size="10" font-family="Consolas,Menlo,monospace">MORE</text>'
     )
-
     add(
-        f'<text x="{WIDTH // 2}" y="316" fill="{MUTED}" font-size="11" text-anchor="middle" '
-        f'font-family="Consolas,Menlo,monospace">CURRENT STREAK {current_streak}D  '
-        f'&#183;  LONGEST {longest_streak}D</text>'
+        f'<text x="{grid_x + grid_w}" y="{legend_y}" fill="{MUTED}" font-size="10" '
+        f'text-anchor="end" font-family="Consolas,Menlo,monospace">'
+        f'CURRENT STREAK {current_streak}D</text>'
     )
 
     add("</g></svg>")

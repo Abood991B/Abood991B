@@ -29,6 +29,7 @@
   <img src="https://img.shields.io/badge/TypeScript-07111F?style=for-the-badge&logo=typescript&logoColor=3B82F6" alt="TypeScript" />
   <img src="https://img.shields.io/badge/JavaScript-07111F?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
   <img src="https://img.shields.io/badge/SQL-07111F?style=for-the-badge&logo=sqlite&logoColor=22D3EE" alt="SQL" />
+  <img src="https://img.shields.io/badge/Jupyter-07111F?style=for-the-badge&logo=jupyter&logoColor=F37626" alt="Jupyter" />
 </p>
 
 <p><strong>AI, machine learning & orchestration</strong></p>
@@ -59,11 +60,13 @@
   <img src="https://img.shields.io/badge/GitHub_Actions-07111F?style=for-the-badge&logo=githubactions&logoColor=2088FF" alt="GitHub Actions" />
 </p>
 
-<p><strong>MLOps, GPU & deployment</strong> <sub>optional path</sub></p>
+<p><strong>MLOps, GPU & code quality</strong></p>
 <p>
   <img src="https://img.shields.io/badge/MLflow-07111F?style=for-the-badge&logo=mlflow&logoColor=0194E2" alt="MLflow" />
   <img src="https://img.shields.io/badge/Kubernetes-07111F?style=for-the-badge&logo=kubernetes&logoColor=326CE5" alt="Kubernetes" />
   <img src="https://img.shields.io/badge/vLLM-07111F?style=for-the-badge&logo=vllm&logoColor=FFD21E" alt="vLLM" />
+  <img src="https://img.shields.io/badge/pytest-07111F?style=for-the-badge&logo=pytest&logoColor=0A9EDC" alt="pytest" />
+  <img src="https://img.shields.io/badge/ruff-07111F?style=for-the-badge&logo=ruff&logoColor=D7FF64" alt="ruff" />
 </p>
 
 ## 03 / FEATURED BUILDS
@@ -104,7 +107,7 @@
 > Twelve months of building, measured rather than claimed.
 
 <p align="center">
-  <img width="800" src="./assets/signal.svg" alt="GitHub activity over the last twelve months: contribution totals, public repositories, commits, pull requests, and a 52-week contribution heatmap" />
+  <img width="800" src="./assets/signal.svg" alt="GitHub activity over the last twelve months: contribution totals, active days, longest streak, public repositories, and a 52-week contribution heatmap" />
 </p>
 
 ## 05 / ENGINEERING FOCUS
