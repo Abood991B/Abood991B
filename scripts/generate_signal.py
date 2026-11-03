@@ -61,9 +61,9 @@ LABEL = "#79e9f8"
 LEVEL_COLOURS = ["#16243a", "#1d4a6b", "#1f7fa8", "#22d3ee", "#8b5cf6"]
 
 TILES = (
-    ("contributions", "CONTRIBUTIONS"),
     ("active_days", "ACTIVE DAYS"),
     ("longest_streak", "LONGEST STREAK"),
+    ("current_streak", "CURRENT STREAK"),
     ("repositories", "PUBLIC REPOS"),
 )
 
@@ -164,7 +164,6 @@ def window_label(days: list[dict]) -> str:
 
 
 def render(user: dict) -> str:
-    calendar = user["contributionsCollection"]["contributionCalendar"]
     days = collect_days(user)
     current_streak, longest_streak = streaks(days)
     cuts = thresholds(days)
@@ -175,9 +174,9 @@ def render(user: dict) -> str:
     active_days = sum(1 for day in days if day["date"] <= today and day["count"] > 0)
 
     metrics = {
-        "contributions": calendar["totalContributions"],
         "active_days": active_days,
         "longest_streak": f"{longest_streak}D",
+        "current_streak": f"{current_streak}D",
         "repositories": user["repositories"]["totalCount"],
     }
 
@@ -190,9 +189,9 @@ def render(user: dict) -> str:
     )
     add(
         f'<title id="signal-title">GitHub activity of the last twelve months</title>'
-        f'<desc id="signal-desc">{metrics["contributions"]:,} contributions on {active_days} active '
-        f'days, a longest streak of {longest_streak} days, and '
-        f'{metrics["repositories"]} public repositories.</desc>'
+        f'<desc id="signal-desc">{active_days} active days over the last twelve months, a '
+        f'longest streak of {longest_streak} days, a current streak of {current_streak} days, '
+        f'and {metrics["repositories"]} public repositories.</desc>'
     )
     add(
         "<defs>"
@@ -270,11 +269,6 @@ def render(user: dict) -> str:
     add(
         f'<text x="{grid_x + 40 + 5 * (cell + cell_gap) + 4}" y="{legend_y}" fill="{MUTED}" '
         f'font-size="10" font-family="Consolas,Menlo,monospace">MORE</text>'
-    )
-    add(
-        f'<text x="{grid_x + grid_w}" y="{legend_y}" fill="{MUTED}" font-size="10" '
-        f'text-anchor="end" font-family="Consolas,Menlo,monospace">'
-        f'CURRENT STREAK {current_streak}D</text>'
     )
 
     add("</g></svg>")

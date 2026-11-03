@@ -74,17 +74,17 @@
 > Selected work, with the engineering signal made explicit.
 
 <p align="center">
-  <a href="https://github.com/Abood991B/insightbull"><img width="48%" src="./profile/pin-insightbull.svg" alt="InsightBull — full-stack financial sentiment research platform" /></a>
-  <a href="https://github.com/Abood991B/CortexaAI"><img width="48%" src="./profile/pin-cortexaai.svg" alt="CortexaAI — multi-provider prompt refinement and evaluation workspace" /></a>
+  <a href="https://github.com/Abood991B/insightbull"><img src="./profile/pin-insightbull.svg" alt="InsightBull — full-stack financial sentiment research platform" /></a>
+  <a href="https://github.com/Abood991B/CortexaAI"><img src="./profile/pin-cortexaai.svg" alt="CortexaAI — multi-provider prompt refinement and evaluation workspace" /></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/Abood991B/vectracite-ai"><img width="48%" src="./profile/pin-vectracite-ai.svg" alt="VectraCite AI — multimodal document intelligence with hybrid retrieval" /></a>
-  <a href="https://github.com/Abood991B/retinal-vessel-segmentation"><img width="48%" src="./profile/pin-retinal-vessel.svg" alt="Retinal vessel segmentation — reproducible classical vision pipeline" /></a>
+  <a href="https://github.com/Abood991B/vectracite-ai"><img src="./profile/pin-vectracite-ai.svg" alt="VectraCite AI — multimodal document intelligence with hybrid retrieval" /></a>
+  <a href="https://github.com/Abood991B/retinal-vessel-segmentation"><img src="./profile/pin-retinal-vessel.svg" alt="Retinal vessel segmentation — reproducible classical vision pipeline" /></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/Abood991B/heart-disease-prediction-streamlit"><img width="48%" src="./profile/pin-heart-disease.svg" alt="Heart disease prediction — end-to-end risk modelling with a Streamlit deployment" /></a>
+  <a href="https://github.com/Abood991B/heart-disease-prediction-streamlit"><img src="./profile/pin-heart-disease.svg" alt="Heart disease prediction — end-to-end risk modelling with a Streamlit deployment" /></a>
 </p>
 
 <details>
@@ -107,7 +107,7 @@
 > Twelve months of building, measured rather than claimed.
 
 <p align="center">
-  <img width="800" src="./assets/signal.svg" alt="GitHub activity over the last twelve months: contribution totals, active days, longest streak, public repositories, and a 52-week contribution heatmap" />
+  <img width="800" src="./assets/signal.svg" alt="GitHub activity over the last twelve months: active days, longest and current streaks, public repositories, and a 52-week contribution heatmap" />
 </p>
 
 ## 05 / ENGINEERING FOCUS
