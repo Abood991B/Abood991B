@@ -3,7 +3,7 @@
 </div>
 
 <p align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&pause=1000&color=22D3EE&center=true&vCenter=true&width=760&lines=Building+AI+systems+that+move+beyond+the+notebook;From+data+pipelines+and+evaluation+to+APIs+and+products;LLM+agents+%7C+Applied+ML+%7C+Production-minded+engineering" alt="Animated introduction" /></a>
+  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&pause=1000&color=22D3EE&center=true&vCenter=true&width=760&lines=Building+AI+systems+that+move+beyond+the+notebook;From+data+pipelines+and+evaluation+to+APIs+and+products;LLM+agents+%7C+Applied+ML+%7C+Production-minded+engineering" alt="Animated introduction" /></a>
 </p>
 
 <p align="center">
@@ -16,7 +16,7 @@
 > **AI Engineer building useful systems beyond the notebook.** I work across LLM applications, agentic workflows, applied machine learning, and data products, with a focus on measurable outcomes, clear architecture, and maintainable delivery.
 
 <div align="center">
-  <img src="./assets/impact.svg" width="800" alt="Selected engineering impact: 91%+ sentiment accuracy, 79 REST endpoints, 52K+ posts modeled, and 100 fundus images evaluated" />
+  <img src="./assets/impact.svg" width="800" alt="Selected engineering impact: 91%+ sentiment accuracy, 79 REST endpoints, 830 PDF pages indexed, and 100 fundus images evaluated" />
 </div>
 
 ## 02 / TOOLCHAIN
@@ -41,24 +41,48 @@
   <img src="https://img.shields.io/badge/OpenCV-07111F?style=for-the-badge&logo=opencv&logoColor=5C3EE8" alt="OpenCV" />
 </p>
 
-<p><strong>APIs, data & delivery</strong></p>
+<p><strong>Retrieval, data & ingestion</strong></p>
+<p>
+  <img src="https://img.shields.io/badge/Qdrant-07111F?style=for-the-badge&logo=qdrant&logoColor=DC244C" alt="Qdrant" />
+  <img src="https://img.shields.io/badge/Redis-07111F?style=for-the-badge&logo=redis&logoColor=DC382D" alt="Redis" />
+  <img src="https://img.shields.io/badge/PostgreSQL-07111F?style=for-the-badge&logo=postgresql&logoColor=4169E1" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/PyMuPDF-07111F?style=for-the-badge&logoColor=22D3EE" alt="PyMuPDF" />
+</p>
+
+<p><strong>APIs & delivery</strong></p>
 <p>
   <img src="https://img.shields.io/badge/FastAPI-07111F?style=for-the-badge&logo=fastapi&logoColor=00C7B7" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/Pydantic-07111F?style=for-the-badge&logo=pydantic&logoColor=E92063" alt="Pydantic" />
   <img src="https://img.shields.io/badge/React-07111F?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/PostgreSQL-07111F?style=for-the-badge&logo=postgresql&logoColor=4169E1" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/Docker-07111F?style=for-the-badge&logo=docker&logoColor=2496ED" alt="Docker" />
   <img src="https://img.shields.io/badge/Streamlit-07111F?style=for-the-badge&logo=streamlit&logoColor=FF4B4B" alt="Streamlit" />
+  <img src="https://img.shields.io/badge/Docker-07111F?style=for-the-badge&logo=docker&logoColor=2496ED" alt="Docker" />
   <img src="https://img.shields.io/badge/GitHub_Actions-07111F?style=for-the-badge&logo=githubactions&logoColor=2088FF" alt="GitHub Actions" />
+</p>
+
+<p><strong>MLOps, GPU & deployment</strong> <sub>optional path</sub></p>
+<p>
+  <img src="https://img.shields.io/badge/MLflow-07111F?style=for-the-badge&logo=mlflow&logoColor=0194E2" alt="MLflow" />
+  <img src="https://img.shields.io/badge/Kubernetes-07111F?style=for-the-badge&logo=kubernetes&logoColor=326CE5" alt="Kubernetes" />
+  <img src="https://img.shields.io/badge/vLLM-07111F?style=for-the-badge&logo=vllm&logoColor=FFD21E" alt="vLLM" />
 </p>
 
 ## 03 / FEATURED BUILDS
 
 > Selected work, with the engineering signal made explicit.
 
-<a href="https://github.com/Abood991B/insightbull"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Abood991B&repo=insightbull&theme=tokyonight&hide_border=true&bg_color=07111F&title_color=22D3EE&text_color=BCD7EE&icon_color=8B5CF6" alt="InsightBull repository card" /></a>
-<a href="https://github.com/Abood991B/CortexaAI"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Abood991B&repo=CortexaAI&theme=tokyonight&hide_border=true&bg_color=07111F&title_color=22D3EE&text_color=BCD7EE&icon_color=8B5CF6" alt="CortexaAI repository card" /></a>
-<a href="https://github.com/Abood991B/retinal-vessel-segmentation"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Abood991B&repo=retinal-vessel-segmentation&theme=tokyonight&hide_border=true&bg_color=07111F&title_color=22D3EE&text_color=BCD7EE&icon_color=8B5CF6" alt="Retinal vessel segmentation repository card" /></a>
-<a href="https://github.com/Abood991B/Mental-Health-Status-Classification-from-Social-Media"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Abood991B&repo=Mental-Health-Status-Classification-from-Social-Media&theme=tokyonight&hide_border=true&bg_color=07111F&title_color=22D3EE&text_color=BCD7EE&icon_color=8B5CF6" alt="Mental health text classification repository card" /></a>
+<p align="center">
+  <a href="https://github.com/Abood991B/insightbull"><img width="48%" src="./profile/pin-insightbull.svg" alt="InsightBull — full-stack financial sentiment research platform" /></a>
+  <a href="https://github.com/Abood991B/CortexaAI"><img width="48%" src="./profile/pin-cortexaai.svg" alt="CortexaAI — multi-provider prompt refinement and evaluation workspace" /></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Abood991B/vectracite-ai"><img width="48%" src="./profile/pin-vectracite-ai.svg" alt="VectraCite AI — multimodal document intelligence with hybrid retrieval" /></a>
+  <a href="https://github.com/Abood991B/retinal-vessel-segmentation"><img width="48%" src="./profile/pin-retinal-vessel.svg" alt="Retinal vessel segmentation — reproducible classical vision pipeline" /></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Abood991B/heart-disease-prediction-streamlit"><img width="48%" src="./profile/pin-heart-disease.svg" alt="Heart disease prediction — end-to-end risk modelling with a Streamlit deployment" /></a>
+</p>
 
 <details>
 <summary><strong>Open the project evidence log</strong></summary>
@@ -68,8 +92,8 @@
 | --- | --- |
 | [**InsightBull**](https://github.com/Abood991B/insightbull) | Hybrid FinBERT + Gemini financial sentiment platform with **91%+ accuracy**, five data sources, and an automated market-hours pipeline<br /><sub>Python · TypeScript · CSS · HTML</sub> |
 | [**CortexaAI**](https://github.com/Abood991B/CortexaAI) | Multi-agent prompt engineering across **six LLM providers**, a seven-node LangGraph workflow, SSE streaming, and **79 REST endpoints**<br /><sub>Python · TypeScript · FastAPI · React</sub> |
+| [**VectraCite AI**](https://github.com/Abood991B/vectracite-ai) | Table-preserving ingestion over **five real SEC filings (830 pages)**, hybrid BGE + BM25 retrieval with weighted RRF, adaptive cross-encoder reranking, and deterministic verification of every cited figure<br /><sub>Python · FastAPI · Qdrant · Redis · Kubernetes</sub> |
 | [**Retinal Vessel Segmentation**](https://github.com/Abood991B/retinal-vessel-segmentation) | Nine-stage classical vision pipeline evaluated on **100 fundus images** with **95.6% accuracy**<br /><sub>Python · OpenCV</sub> |
-| [**Mental Health Text Classification**](https://github.com/Abood991B/Mental-Health-Status-Classification-from-Social-Media) | Seven-class NLP pipeline over **52,543 prepared posts**, comparing traditional ML, neural networks, and transformers<br /><sub>Python · Jupyter Notebook</sub> |
 | [**Heart Disease Prediction**](https://github.com/Abood991B/heart-disease-prediction-streamlit) | End-to-end modeling workflow with imbalance handling, model comparison, and a deployed Streamlit interface<br /><sub>Python · Jupyter Notebook · Streamlit</sub> |
 | [**Global Air Quality Dashboard**](https://Abood991B.github.io/air-pollution-dashboard/) | Interactive D3.js data story with six connected visualizations and a live GitHub Pages deployment<br /><sub>JavaScript · HTML · CSS · D3.js</sub> |
 
@@ -77,10 +101,10 @@
 
 ## 04 / GITHUB SIGNAL
 
-> Consistency is part of shipping.
+> Twelve months of building, measured rather than claimed.
 
 <p align="center">
-  <img width="760" src="https://github-readme-streak-stats.herokuapp.com/?user=Abood991B&theme=dark&hide_border=true&background=07111F&stroke=1E3A5F&ring=3B82F6&fire=F59E0B&currStreakLabel=22D3EE&sideLabels=BCD7EE&currStreakNum=F4FBFF&sideNums=F4FBFF&dates=6F8EAA" alt="GitHub contributions, current streak, and longest streak" />
+  <img width="800" src="./assets/signal.svg" alt="GitHub activity over the last twelve months: contribution totals, public repositories, commits, pull requests, and a 52-week contribution heatmap" />
 </p>
 
 ## 05 / ENGINEERING FOCUS
