@@ -1,0 +1,100 @@
+name: Profile cards
+
+# Regenerates every dynamic image in the profile README and commits the result.
+# Cards are served from this repository, so a failed run leaves the previous
+# cards in place instead of showing broken images to visitors.
+
+on:
+  schedule:
+    - cron: "17 4 * * *" # daily, 04:17 UTC
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/profile-cards.yml"
+      - "scripts/generate_signal.py"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-cards
+  cancel-in-progress: true
+
+jobs:
+  cards:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+
+      - name: Pin card — InsightBull
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: "username=Abood991B&repo=insightbull&theme=tokyonight&hide_border=true&bg_color=07111F&title_color=22D3EE&text_color=BCD7EE&icon_color=8B5CF6"
+          path: profile/pin-insightbull.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Pin card — CortexaAI
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: "username=Abood991B&repo=CortexaAI&theme=tokyonight&hide_border=true&bg_color=07111F&title_color=22D3EE&text_color=BCD7EE&icon_color=8B5CF6"
+          path: profile/pin-cortexaai.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Pin card — VectraCite AI
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: "username=Abood991B&repo=vectracite-ai&theme=tokyonight&hide_border=true&bg_color=07111F&title_color=22D3EE&text_color=BCD7EE&icon_color=8B5CF6"
+          path: profile/pin-vectracite-ai.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Pin card — Retinal vessel segmentation
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: "username=Abood991B&repo=retinal-vessel-segmentation&theme=tokyonight&hide_border=true&bg_color=07111F&title_color=22D3EE&text_color=BCD7EE&icon_color=8B5CF6"
+          path: profile/pin-retinal-vessel.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Pin card — Heart disease prediction
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: "username=Abood991B&repo=heart-disease-prediction-streamlit&theme=tokyonight&hide_border=true&bg_color=07111F&title_color=22D3EE&text_color=BCD7EE&icon_color=8B5CF6"
+          path: profile/pin-heart-disease.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Generate GitHub signal card
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_LOGIN: ${{ github.repository_owner }}
+        run: python scripts/generate_signal.py --output assets/signal.svg
+
+      - name: Commit refreshed cards
+        run: |
+          mkdir -p profile
+          git add profile assets/signal.svg
+          if git diff --cached --quiet; then
+            echo "Cards are already current; nothing to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore(profile): refresh generated cards"
+          git push
